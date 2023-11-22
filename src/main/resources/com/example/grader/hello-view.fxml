@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.grader.HelloController">
+  <content>
+     <AnchorPane prefHeight="600.0" prefWidth="800.0">
+        <Label alignment="CENTER" prefHeight="60.0" prefWidth="900.0" text="Enter Student Details" textAlignment="CENTER" underline="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+           <font>
+              <Font name="Times New Roman Bold" size="30.0" />
+           </font>
+        </Label>
+        <Label layoutX="71.0" layoutY="88.0" text="SEAT NO.">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </Label>
+        <Label layoutX="415.0" layoutY="88.0" text="P.R. NUMBER">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </Label>
+        <TextField fx:id="seatno" alignment="CENTER" layoutX="151.0" layoutY="83.0" promptText="SEAT NUMBER">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </TextField>
+        <TextField fx:id="prnum" alignment="CENTER" layoutX="524.0" layoutY="83.0" promptText="P.R. NUMBER">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </TextField>
+        <Label layoutX="80.0" layoutY="132.0" text="NAME">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </Label>
+        <TextField fx:id="name" alignment="CENTER" layoutX="151.0" layoutY="126.0" promptText="NAME">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </TextField>
+        <TextField fx:id="college" alignment="CENTER" layoutX="524.0" layoutY="125.0" promptText="COLLEGE">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </TextField>
+        <Label layoutX="425.0" layoutY="131.0" text="COLLEGE">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </Label>
+        <Label layoutX="74.0" layoutY="176.0" text="DEGREE">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </Label>
+        <TextField fx:id="degree" alignment="CENTER" layoutX="151.0" layoutY="171.0" promptText="DEGREE">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </TextField>
+        <Label layoutX="435.0" layoutY="176.0" text="EXAM">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </Label>
+        <TextField fx:id="exam" alignment="CENTER" layoutX="524.0" layoutY="170.0" promptText="EXAM">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </TextField>
+        <Label layoutX="323.0" layoutY="228.0" text="Subject Details" underline="true">
+           <font>
+              <Font name="Times New Roman Bold" size="24.0" />
+           </font>
+        </Label>
+        <Label layoutX="103.0" layoutY="285.0" text=" COURSE CODE">
+           <font>
+              <Font name="Times New Roman Bold" size="12.0" />
+           </font>
+        </Label>
+        <Label layoutX="281.0" layoutY="285.0" text="COURSE TITLE">
+           <font>
+              <Font name="Times New Roman Bold" size="12.0" />
+           </font>
+        </Label>
+        <Label layoutX="447.0" layoutY="285.0" text="MARKS OBTAINED">
+           <font>
+              <Font name="Times New Roman Bold" size="12.0" />
+           </font>
+        </Label>
+        <Label layoutX="629.0" layoutY="285.0" text="TOTAL MARKS">
+           <font>
+              <Font name="Times New Roman Bold" size="12.0" />
+           </font>
+        </Label>
+        <TextField fx:id="code1" alignment="CENTER" layoutX="71.0" layoutY="326.0" promptText="CODE 1">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </TextField>
+        <TextField fx:id="title1" alignment="CENTER" layoutX="247.0" layoutY="326.0" promptText="TITLE 1">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </TextField>
+        <TextField fx:id="marks1" alignment="CENTER" layoutX="425.0" layoutY="326.0" promptText="MARKS 1">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </TextField>
+        <TextField fx:id="total1" alignment="CENTER" layoutX="599.0" layoutY="326.0" promptText="TOTAL 1">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </TextField>
+        <Label layoutX="35.0" layoutY="329.0" text="1">
+           <font>
+              <Font name="Times New Roman" size="18.0" />
+           </font>
+        </Label>
+        <TextField fx:id="code2" alignment="CENTER" layoutX="71.0" layoutY="361.0" promptText="CODE 2">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </TextField>
+        <TextField fx:id="code3" alignment="CENTER" layoutX="71.0" layoutY="394.0" promptText="CODE 3">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </TextField>
+        <Label layoutX="35.0" layoutY="364.0" text="2">
+           <font>
+              <Font name="Times New Roman" size="18.0" />
+           </font>
+        </Label>
+        <Label layoutX="35.0" layoutY="397.0" text="3">
+           <font>
+              <Font name="Times New Roman" size="18.0" />
+           </font>
+        </Label>
+        <TextField fx:id="code4" alignment="CENTER" layoutX="71.0" layoutY="430.0" promptText="CODE 4">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </TextField>
+        <TextField fx:id="code5" alignment="CENTER" layoutX="71.0" layoutY="466.0" promptText="CODE 5">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </TextField>
+        <Label layoutX="35.0" layoutY="433.0" text="4">
+           <font>
+              <Font name="Times New Roman" size="18.0" />
+           </font>
+        </Label>
+        <Label layoutX="35.0" layoutY="469.0" text="5">
+           <font>
+              <Font name="Times New Roman" size="18.0" />
+           </font>
+        </Label>
+        <TextField fx:id="title2" alignment="CENTER" layoutX="247.0" layoutY="361.0" promptText="TITLE 2">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </TextField>
+        <TextField fx:id="marks2" alignment="CENTER" layoutX="425.0" layoutY="361.0" promptText="MARKS 2">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </TextField>
+        <TextField fx:id="total2" alignment="CENTER" layoutX="598.0" layoutY="361.0" promptText="TOTAL 2">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </TextField>
+        <TextField fx:id="title3" alignment="CENTER" layoutX="246.0" layoutY="394.0" promptText="TITLE 3">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </TextField>
+        <TextField fx:id="marks3" alignment="CENTER" layoutX="427.0" layoutY="394.0" promptText="MARKS 3">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </TextField>
+        <TextField fx:id="total3" alignment="CENTER" layoutX="599.0" layoutY="394.0" promptText="TOTAL 3">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </TextField>
+        <TextField fx:id="title4" alignment="CENTER" layoutX="251.0" layoutY="429.0" promptText="TITLE 4">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </TextField>
+        <TextField fx:id="marks5" alignment="CENTER" layoutX="427.0" layoutY="466.0" promptText="MARKS 5">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </TextField>
+        <TextField fx:id="title5" alignment="CENTER" layoutX="251.0" layoutY="465.0" promptText="TITLE 5">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </TextField>
+        <TextField fx:id="marks4" alignment="CENTER" layoutX="425.0" layoutY="430.0" promptText="MARKS 4">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </TextField>
+        <TextField fx:id="total4" alignment="CENTER" layoutX="599.0" layoutY="430.0" promptText="TOTAL 4">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </TextField>
+        <TextField fx:id="total5" alignment="CENTER" layoutX="599.0" layoutY="466.0" promptText="TOTAL 5">
+           <font>
+              <Font name="Times New Roman" size="12.0" />
+           </font>
+        </TextField>
+        <Button layoutX="656.0" layoutY="524.0" mnemonicParsing="false" onAction="#Submit" text="SUBMIT" />
+     </AnchorPane>
+  </content>
+</ScrollPane>
