@@ -1,17 +1,17 @@
 package com.example.grader;
 
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import javafx.event.ActionEvent;
 
 import java.io.IOException;
 
-public class HelloController {
-    private Model model = new Model();
+public class InputInfoConfirmation {
+    private Model model;
     @FXML
     private TextField seatno;
     @FXML
@@ -65,7 +65,7 @@ public class HelloController {
     @FXML
     private TextField total5;
 
-    public void setEditData(Model model) {
+    public void setData(Model model) {
         this.model = model;
         seatno.setText(model.getSeatNo());
         prnum.setText(model.getPrNum());
@@ -95,7 +95,23 @@ public class HelloController {
         total5.setText(model.getTotal5());
     }
 
-    public void Submit(ActionEvent event) throws IOException {
+    public void Edit(ActionEvent event) throws IOException {
+        Stage stage = new Stage();
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("hello-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+
+        HelloController helloController = fxmlLoader.getController();
+        helloController.setEditData(model);
+
+        stage.setTitle("Grader");
+        stage.setScene(scene);
+        stage.show();
+
+        Stage currentStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        currentStage.close();
+    }
+
+    public void PrintMarksheet(ActionEvent event) throws IOException {
         model.setSeatNo(seatno.getText());
         model.setPrNum(prnum.getText());
         model.setName(name.getText());
@@ -123,13 +139,12 @@ public class HelloController {
         model.setTotal4(total4.getText());
         model.setTotal5(total5.getText());
 
-
         Stage stage = new Stage();
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("InputInfoConfirmation.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Marksheet.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
 
-        InputInfoConfirmation inputInfoConfirmation = fxmlLoader.getController();
-        inputInfoConfirmation.setData(model);
+        MarksheetController marksheetController = fxmlLoader.getController();
+        marksheetController.setMarksheetData(model);
 
         stage.setTitle("Grader");
         stage.setScene(scene);

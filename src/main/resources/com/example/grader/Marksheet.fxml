@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.grader.MarksheetController">
+   <children>
+      <ImageView fitHeight="60.0" fitWidth="61.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/icon-512-maskable.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" prefHeight="60.0" prefWidth="900.0" text="Marksheet" textAlignment="CENTER" underline="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+           <font>
+              <Font name="Times New Roman Bold" size="36.0" />
+           </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="86.0" layoutY="103.0" text="Seat No." textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="534.0" layoutY="103.0" text="P. R. No." textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="86.0" layoutY="131.0" text="College" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="86.0" layoutY="162.0" text="Certificate showing the marks / grades obtained by" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="86.0" layoutY="188.0" text="In each head of passing at the" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="86.0" layoutY="213.0" text="Examination held in" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Line endX="643.199951171875" endY="-1.52587890625E-5" layoutX="128.0" layoutY="255.0" startX="-100.0" />
+      <Label alignment="CENTER" layoutX="74.0" layoutY="269.0" text="Course Code" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="252.0" layoutY="269.0" text="Course Title" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="456.0" layoutY="269.0" text="Marks Obtained" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="602.0" layoutY="269.0" text="Total Marks" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Line endX="643.199951171875" endY="-1.52587890625E-5" layoutX="128.0" layoutY="301.0" startX="-100.0" />
+      <Label fx:id="code1" alignment="CENTER" contentDisplay="CENTER" layoutX="86.0" layoutY="332.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="code2" alignment="CENTER" contentDisplay="CENTER" layoutX="86.0" layoutY="354.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="code3" alignment="CENTER" contentDisplay="CENTER" layoutX="86.0" layoutY="378.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="code4" alignment="CENTER" contentDisplay="CENTER" layoutX="86.0" layoutY="403.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="code5" alignment="CENTER" contentDisplay="CENTER" layoutX="86.0" layoutY="427.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="title1" alignment="CENTER" contentDisplay="CENTER" layoutX="262.0" layoutY="332.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="title2" alignment="CENTER" contentDisplay="CENTER" layoutX="261.0" layoutY="354.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="title3" alignment="CENTER" contentDisplay="CENTER" layoutX="261.0" layoutY="378.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="title4" alignment="CENTER" contentDisplay="CENTER" layoutX="262.0" layoutY="403.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="title5" alignment="CENTER" contentDisplay="CENTER" layoutX="261.0" layoutY="427.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="marks1" alignment="CENTER" contentDisplay="CENTER" layoutX="477.0" layoutY="331.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="marks2" alignment="CENTER" contentDisplay="CENTER" layoutX="477.0" layoutY="353.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="marks3" alignment="CENTER" contentDisplay="CENTER" layoutX="477.0" layoutY="377.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="marks5" alignment="CENTER" contentDisplay="CENTER" layoutX="477.0" layoutY="426.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="marks4" alignment="CENTER" contentDisplay="CENTER" layoutX="477.0" layoutY="402.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="total1" alignment="CENTER" contentDisplay="CENTER" layoutX="637.0" layoutY="332.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="total2" alignment="CENTER" contentDisplay="CENTER" layoutX="637.0" layoutY="354.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="total3" alignment="CENTER" contentDisplay="CENTER" layoutX="637.0" layoutY="378.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="total4" alignment="CENTER" contentDisplay="CENTER" layoutX="637.0" layoutY="403.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="total5" alignment="CENTER" contentDisplay="CENTER" layoutX="637.0" layoutY="427.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Line endX="643.199951171875" endY="-1.52587890625E-5" layoutX="128.0" layoutY="468.0" startX="-100.0" />
+      <Label alignment="CENTER" layoutX="376.0" layoutY="479.0" text="Total" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Line endX="643.199951171875" endY="-1.52587890625E-5" layoutX="128.0" layoutY="508.0" startX="-100.0" />
+      <Label fx:id="totalobtained" alignment="CENTER" contentDisplay="CENTER" layoutX="464.0" layoutY="479.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalabsolute" alignment="CENTER" contentDisplay="CENTER" layoutX="625.0" layoutY="479.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="seatno" alignment="CENTER" layoutX="145.0" layoutY="103.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="college" alignment="CENTER" layoutX="145.0" layoutY="131.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="name" alignment="CENTER" layoutX="376.0" layoutY="162.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="degree" alignment="CENTER" layoutX="262.0" layoutY="188.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="exam" alignment="CENTER" layoutX="204.0" layoutY="213.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="prnum" alignment="CENTER" layoutX="596.0" layoutY="103.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="711.0" layoutY="269.0" text="Grade" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="grade1" alignment="CENTER" contentDisplay="CENTER" layoutX="725.0" layoutY="332.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="grade2" alignment="CENTER" contentDisplay="CENTER" layoutX="725.0" layoutY="354.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="grade3" alignment="CENTER" contentDisplay="CENTER" layoutX="725.0" layoutY="378.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="grade4" alignment="CENTER" contentDisplay="CENTER" layoutX="725.0" layoutY="403.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="grade5" alignment="CENTER" contentDisplay="CENTER" layoutX="725.0" layoutY="427.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="360.0" layoutY="529.0" text="Percentage" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="percentage" alignment="CENTER" layoutX="433.0" layoutY="529.0" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
