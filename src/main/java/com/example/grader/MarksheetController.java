@@ -1,7 +1,14 @@
 package com.example.grader;
 
 import javafx.fxml.FXML;
+import javafx.scene.SnapshotParameters;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.image.WritableImage;
+import javafx.stage.FileChooser;
+
+import java.io.File;
+import java.io.IOException;
 
 public class MarksheetController {
     private Model model;
