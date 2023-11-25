@@ -235,4 +235,66 @@ public class Model {
     public String getTotal5() {
         return Total5;
     }
+
+    public int calculateTotalMarks() {
+        int totalMarks = 0;
+        totalMarks += convertToInteger(Marks1);
+        totalMarks += convertToInteger(Marks2);
+        totalMarks += convertToInteger(Marks3);
+        totalMarks += convertToInteger(Marks4);
+        totalMarks += convertToInteger(Marks5);
+        return totalMarks;
+    }
+
+    public int calculateTotalMaxMarks() {
+        int totalMaxMarks = 0;
+        totalMaxMarks += convertToInteger(Total1);
+        totalMaxMarks += convertToInteger(Total2);
+        totalMaxMarks += convertToInteger(Total3);
+        totalMaxMarks += convertToInteger(Total4);
+        totalMaxMarks += convertToInteger(Total5);
+        return totalMaxMarks;
+    }
+
+    public double calculatePercentage() {
+        int totalMarks = calculateTotalMarks();
+        int totalMaxMarks = calculateTotalMaxMarks();
+        if (totalMaxMarks == 0) {
+            return 0.0;
+        }
+        return (double) totalMarks / totalMaxMarks * 100;
+    }
+
+    public String calculateGrade(String marks, String total) {
+        int marksValue = convertToInteger(marks);
+        int totalValue = convertToInteger(total);
+
+        if (totalValue == 0) {
+            return "N/A";
+        }
+
+        double percentage = (double) marksValue / totalValue * 100;
+
+        if (percentage >= 90) {
+            return "A+";
+        } else if (percentage >= 80) {
+            return "A";
+        } else if (percentage >= 70) {
+            return "B";
+        } else if (percentage >= 60) {
+            return "C";
+        } else if (percentage >= 50) {
+            return "D";
+        } else {
+            return "F";
+        }
+    }
+
+    private int convertToInteger(String value) {
+        try {
+            return Integer.parseInt(value);
+        } catch (NumberFormatException e) {
+            return 0;
+        }
+    }
 }

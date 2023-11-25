@@ -102,5 +102,19 @@ public class MarksheetController {
         total3.setText(model.getTotal3());
         total4.setText(model.getTotal4());
         total5.setText(model.getTotal5());
+
+        int totalMarks = model.calculateTotalMarks();
+        int totalMaxMarks = model.calculateTotalMaxMarks();
+        double percentageValue = model.calculatePercentage();
+
+        totalobtained.setText(Integer.toString(totalMarks));
+        totalabsolute.setText(Integer.toString(totalMaxMarks));
+        percentage.setText(String.format("%.2f%%", percentageValue));
+
+        grade1.setText(model.calculateGrade(model.getMarks1(), model.getTotal1()));
+        grade2.setText(model.calculateGrade(model.getMarks2(), model.getTotal2()));
+        grade3.setText(model.calculateGrade(model.getMarks3(), model.getTotal3()));
+        grade4.setText(model.calculateGrade(model.getMarks4(), model.getTotal4()));
+        grade5.setText(model.calculateGrade(model.getMarks5(), model.getTotal5()));
     }
 }
