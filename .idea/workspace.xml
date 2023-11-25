@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b04375b7-37bf-4871-936d-a721b0649136" name="Changes" comment="added feature to save the marksheet as png">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/grader/MarksheetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/grader/MarksheetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/grader/Marksheet.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/grader/Marksheet.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="b04375b7-37bf-4871-936d-a721b0649136" name="Changes" comment="added feature to save the marksheet as png" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,7 +128,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700907954909</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added feature to save the marksheet as png">
+      <option name="closed" value="true" />
+      <created>1700909676372</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700909676372</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added feature to save the marksheet as png">
+      <option name="closed" value="true" />
+      <created>1700909803779</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1700909803779</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
