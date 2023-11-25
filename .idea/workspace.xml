@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b04375b7-37bf-4871-936d-a721b0649136" name="Changes" comment="some minor bug fixes">
+    <list default="true" id="b04375b7-37bf-4871-936d-a721b0649136" name="Changes" comment="added feature to save the marksheet as png">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/grader/MarksheetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/grader/MarksheetController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/grader/Marksheet.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/grader/Marksheet.fxml" afterDir="false" />
@@ -142,6 +142,7 @@
     <MESSAGE value="some minor workspace.xml change" />
     <MESSAGE value="added functionality for calculating the total marks, percentage and setting grade points" />
     <MESSAGE value="some minor bug fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="some minor bug fixes" />
+    <MESSAGE value="added feature to save the marksheet as png" />
+    <option name="LAST_COMMIT_MESSAGE" value="added feature to save the marksheet as png" />
   </component>
 </project>
